@@ -55,8 +55,10 @@ ul { list-style: none; }
   align-items: center;
 }
 .top-bar-right span { margin-left: 24px; }
-.lang-switch a { color: #cbd5e1; }
-.lang-switch a.active { color: var(--accent); font-weight: 600; }
+.lang-switch { display:inline-flex; align-items:center; gap:4px; margin-left:18px; }
+.lang-switch-btn { background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.25); color:#e2e8f0; cursor:pointer; padding:3px 8px; font-size:12px; border-radius:4px; transition:all .2s; }
+.lang-switch-btn:hover { background:rgba(255,255,255,0.2); color:#fff; }
+.lang-switch-btn.active { background:var(--accent); border-color:var(--accent); color:#1f2937; font-weight:700; }
 
 /* =========================================================
    HEADER
