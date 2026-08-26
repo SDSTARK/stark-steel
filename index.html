@@ -19,7 +19,7 @@
     <div class="top-bar-right">
       <span>📞 +86 18954492649</span>
       <a class="wa-link" href="https://wa.me/8618954492649" target="_blank" rel="noopener" title="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>WhatsApp</a>
-      <span class="lang-switch">Language: <a href="#" class="active">English</a></span>
+      <span class="lang-switch"></span>
     </div>
   </div>
 </div>
@@ -33,15 +33,15 @@
     </a>
     <nav class="main-nav">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="#products" class="active">Products</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="index.html" data-i18n="navHome">Home</a></li>
+        <li><a href="about.html" data-i18n="navAbout">About Us</a></li>
+        <li><a href="#products" class="active" data-i18n="navProducts">Products</a></li>
+        <li><a href="news.html" data-i18n="navNews">News</a></li>
+        <li><a href="contact.html" data-i18n="navContact">Contact Us</a></li>
       </ul>
     </nav>
     <div class="header-cta">
-      <a href="#inquiry" class="btn btn-primary">Get a Quote</a>
+      <a href="#inquiry" class="btn btn-primary" data-i18n="navQuote">Get a Quote</a>
     </div>
   </div>
 </header>
@@ -51,11 +51,11 @@
   <div class="hero-slide active" style="background-image: url('images/hero-01.jpg');">
     <div class="container">
       <div class="hero-content">
-        <span class="hero-sub">Worry-free After-sales Service</span>
-        <h1>Strict order review at Stark-Steel guarantees customer satisfaction.</h1>
+        <span class="hero-sub" data-i18n="heroSub1">Worry-free After-sales Service</span>
+        <h1 data-i18n="heroTitle1">Strict order review at Stark-Steel guarantees customer satisfaction.</h1>
         <div class="hero-btns">
-          <a href="#products" class="btn btn-primary">Learn More →</a>
-          <a href="contact.html" class="btn btn-outline-light">Contact Us</a>
+          <a href="#products" class="btn btn-primary" data-i18n="btnLearnMore">Learn More →</a>
+          <a href="contact.html" class="btn btn-outline-light" data-i18n="btnContact">Contact Us</a>
         </div>
       </div>
     </div>
@@ -63,11 +63,11 @@
   <div class="hero-slide" style="background-image: url('images/hero-02.jpg');">
     <div class="container">
       <div class="hero-content">
-        <span class="hero-sub">Professional Team</span>
-        <h1>Professional pre-sales and after-sales team in the steel industry.</h1>
+        <span class="hero-sub" data-i18n="heroSub2">Professional Team</span>
+        <h1 data-i18n="heroTitle2">Professional pre-sales and after-sales team in the steel industry.</h1>
         <div class="hero-btns">
-          <a href="#products" class="btn btn-primary">Learn More →</a>
-          <a href="contact.html" class="btn btn-outline-light">Contact Us</a>
+          <a href="#products" class="btn btn-primary" data-i18n="btnLearnMore">Learn More →</a>
+          <a href="contact.html" class="btn btn-outline-light" data-i18n="btnContact">Contact Us</a>
         </div>
       </div>
     </div>
@@ -82,20 +82,20 @@
 <section id="products" class="products-section">
   <div class="container">
     <div class="section-title">
-      <h2>Products Catalog</h2>
+      <h2 data-i18n="secProducts">Products Catalog</h2>
       <div class="title-underline"></div>
-      <p>High quality steel products for global customers</p>
+      <p data-i18n="secProductsSub">High quality steel products for global customers</p>
     </div>
 
     <div class="category-tabs">
-      <button class="tab-btn active" data-cat="all">All</button>
-      <button class="tab-btn" data-cat="carbon">Carbon Steel</button>
-      <button class="tab-btn" data-cat="galvanized">Galvanized Steel</button>
-      <button class="tab-btn" data-cat="stainless">Stainless Steel</button>
-      <button class="tab-btn" data-cat="aluminum">Aluminum</button>
-      <button class="tab-btn" data-cat="rebar">Steel Rebars</button>
-      <button class="tab-btn" data-cat="corrugated">Corrugated Board</button>
-      <button class="tab-btn" data-cat="structural">Structural Steel</button>
+      <button class="tab-btn active" data-cat="all" data-i18n="catAll">All</button>
+      <button class="tab-btn" data-cat="carbon" data-i18n="catCarbon">Carbon Steel</button>
+      <button class="tab-btn" data-cat="galvanized" data-i18n="catGalvanized">Galvanized Steel</button>
+      <button class="tab-btn" data-cat="stainless" data-i18n="catStainless">Stainless Steel</button>
+      <button class="tab-btn" data-cat="aluminum" data-i18n="catAluminum">Aluminum</button>
+      <button class="tab-btn" data-cat="rebar" data-i18n="catRebar">Steel Rebars</button>
+      <button class="tab-btn" data-cat="corrugated" data-i18n="catCorrugated">Corrugated Board</button>
+      <button class="tab-btn" data-cat="structural" data-i18n="catStructural">Structural Steel</button>
     </div>
 
     <div class="product-grid">
@@ -103,14 +103,14 @@
       <div class="product-card" data-cat="carbon">
         <div class="product-img">
           <img src="images/product-01.jpg" alt="HRB400 Steel Wire Rod">
-          <span class="product-badge">Hot</span>
+          <span class="product-badge" data-i18n="hotBadge">Hot</span>
         </div>
         <div class="product-info">
           <h3><a href="product-01.html">HRB400/HRB400E Steel Wire Rod</a></h3>
           <p>HRB400/HRB400E Steel Wire Rod with high strength of 400 MPa yield, good plasticity and welding performance.</p>
           <div class="product-meta">
-            <span>Category: Carbon Steel Wire</span>
-            <a href="product-01.html" class="read-more">Read More →</a>
+            <span data-i18n="category"><span>Category:</span> Carbon Steel Wire</span>
+            <a href="product-01.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
           </div>
         </div>
       </div>
@@ -123,8 +123,8 @@
           <h3><a href="product-02.html">Low Carbon Bright Alkaline Steel Wire</a></h3>
           <p>Low Carbon Bright Alkaline Steel Wire with excellent surface quality and consistent mechanical properties.</p>
           <div class="product-meta">
-            <span>Category: Carbon Steel Wire</span>
-            <a href="product-02.html" class="read-more">Read More →</a>
+            <span data-i18n="category"><span>Category:</span> Carbon Steel Wire</span>
+            <a href="product-02.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
           </div>
         </div>
       </div>
@@ -137,8 +137,8 @@
           <h3><a href="product-03.html">Hot Dipped Galvanized Wire</a></h3>
           <p>Hot Dipped Galvanized Wire for construction, fencing and industrial applications with superior corrosion resistance.</p>
           <div class="product-meta">
-            <span>Category: Galvanized Wire</span>
-            <a href="product-03.html" class="read-more">Read More →</a>
+            <span data-i18n="category"><span>Category:</span> Galvanized Wire</span>
+            <a href="product-03.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
           </div>
         </div>
       </div>
@@ -151,8 +151,8 @@
           <h3><a href="product-04.html">HRB600 High Strength Hot Rolled Reinforced Bar</a></h3>
           <p>HRB600 High Strength Hot Rolled Reinforced Bar for high-rise buildings and large infrastructure projects.</p>
           <div class="product-meta">
-            <span>Category: Steel Rebars</span>
-            <a href="product-04.html" class="read-more">Read More →</a>
+            <span data-i18n="category"><span>Category:</span> Steel Rebars</span>
+            <a href="product-04.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
           </div>
         </div>
       </div>
@@ -165,8 +165,8 @@
           <h3><a href="product-05.html">201 / 304 Stainless Steel Pipe</a></h3>
           <p>We operate a complete range of stainless steel pipes, with 201 and 304 grades available in various specifications.</p>
           <div class="product-meta">
-            <span>Category: Stainless Steel Pipe</span>
-            <a href="product-05.html" class="read-more">Read More →</a>
+            <span data-i18n="category"><span>Category:</span> Stainless Steel Pipe</span>
+            <a href="product-05.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
           </div>
         </div>
       </div>
@@ -179,8 +179,8 @@
           <h3><a href="product-06.html">304 / 304L Stainless Steel Coil</a></h3>
           <p>Stainless steel coils are a popular choice for kitchenware, decoration, medical equipment and industrial use.</p>
           <div class="product-meta">
-            <span>Category: Stainless Steel Coil</span>
-            <a href="product-06.html" class="read-more">Read More →</a>
+            <span data-i18n="category"><span>Category:</span> Stainless Steel Coil</span>
+            <a href="product-06.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
           </div>
         </div>
       </div>
@@ -193,8 +193,8 @@
           <h3><a href="product-07.html">PPGL Steel Sheet</a></h3>
           <p>PPGL Steel Sheet, pre-painted galvalume steel, ideal for roofing and wall cladding with great durability.</p>
           <div class="product-meta">
-            <span>Category: Corrugated Board</span>
-            <a href="product-07.html" class="read-more">Read More →</a>
+            <span data-i18n="category"><span>Category:</span> Corrugated Board</span>
+            <a href="product-07.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
           </div>
         </div>
       </div>
@@ -207,8 +207,8 @@
           <h3><a href="product-08.html">Hot Dipped Q195 Q235 Q345 Seamless Round Galvanized Steel Pipe</a></h3>
           <p>Galvanized steel pipe is a welded steel pipe with hot-dip or electroplated zinc coating on the surface.</p>
           <div class="product-meta">
-            <span>Category: Galvanized Steel Pipe</span>
-            <a href="product-08.html" class="read-more">Read More →</a>
+            <span data-i18n="category"><span>Category:</span> Galvanized Steel Pipe</span>
+            <a href="product-08.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
           </div>
         </div>
       </div>
@@ -221,8 +221,8 @@
           <h3><a href="product-09.html">SGCC SPCC 40g-275g Hot Dipped Galvanized Steel Plate</a></h3>
           <p>Galvanized steel sheet, also known as galvanized steel plate, with zinc coating for corrosion protection.</p>
           <div class="product-meta">
-            <span>Category: Galvanized Steel Sheet</span>
-            <a href="product-09.html" class="read-more">Read More →</a>
+            <span data-i18n="category"><span>Category:</span> Galvanized Steel Sheet</span>
+            <a href="product-09.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
           </div>
         </div>
       </div>
@@ -235,8 +235,8 @@
           <h3><a href="product-10.html">DX51D SGCC Coating Cold Rolled Galvanized Steel Coil</a></h3>
           <p>DX51D SGCC coating cold rolled galvanized steel coil with smooth surface and uniform zinc layer.</p>
           <div class="product-meta">
-            <span>Category: Galvanized Steel Coil</span>
-            <a href="product-10.html" class="read-more">Read More →</a>
+            <span data-i18n="category"><span>Category:</span> Galvanized Steel Coil</span>
+            <a href="product-10.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
           </div>
         </div>
       </div>
@@ -249,8 +249,8 @@
           <h3><a href="product-11.html">Q195 Q235 Rectangular Square Steel Pipe for Structure</a></h3>
           <p>Square tubes is a form of tube that is often used for structural and construction applications.</p>
           <div class="product-meta">
-            <span>Category: Carbon Steel Pipe</span>
-            <a href="product-11.html" class="read-more">Read More →</a>
+            <span data-i18n="category"><span>Category:</span> Carbon Steel Pipe</span>
+            <a href="product-11.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
           </div>
         </div>
       </div>
@@ -263,8 +263,8 @@
           <h3><a href="product-12.html">Q235B S235JR SS400 Hot Rolled Carbon Steel Plate</a></h3>
           <p>Q235B is a Chinese standard carbon structural steel with high strength and good welding properties.</p>
           <div class="product-meta">
-            <span>Category: Carbon Steel Plate</span>
-            <a href="product-12.html" class="read-more">Read More →</a>
+            <span data-i18n="category"><span>Category:</span> Carbon Steel Plate</span>
+            <a href="product-12.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
           </div>
         </div>
       </div>
@@ -277,8 +277,8 @@
           <h3><a href="product-13.html">Frame Scaffolding System</a></h3>
           <p>Hot-dipped galvanized frame (door-frame) scaffolding system with casters, guardrails and platform boards for safe construction access.</p>
           <div class="product-meta">
-            <span>Category: Scaffolding System</span>
-            <a href="product-13.html" class="read-more">Read More →</a>
+            <span data-i18n="category"><span>Category:</span> Scaffolding System</span>
+            <a href="product-13.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
           </div>
         </div>
       </div>
@@ -291,8 +291,23 @@
           <h3><a href="product-14.html">Heavy Duty Adjustable Steel Prop Support</a></h3>
           <p>Adjustable steel prop support for formwork and shoring with quick height adjustment and high load capacity.</p>
           <div class="product-meta">
-            <span>Category: Steel Support</span>
-            <a href="product-14.html" class="read-more">Read More →</a>
+            <span data-i18n="category"><span>Category:</span> Steel Support</span>
+            <a href="product-14.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="product-card" data-cat="carbon">
+        <div class="product-img">
+          <img src="images/product-15.jpg" alt="Steel Wire Nails">
+        </div>
+        <div class="product-info">
+          <h3><a href="product-15.html">Steel Wire Nails</a></h3>
+          <p>High quality steel wire nails for construction, carpentry, packaging and general fastening applications.</p>
+          <div class="product-meta">
+            <span data-i18n="category"><span>Category:</span> Nails</span>
+            <a href="product-15.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
           </div>
         </div>
       </div>
@@ -331,9 +346,9 @@
         <img src="images/about-company.png" alt="Shandong Stark Steel Co., Ltd">
       </div>
       <div class="about-text">
-        <span class="overline">About Products</span>
-        <h2>Professional Steel Supplier You Can Trust</h2>
-        <p>Shandong Stark Steel Co., Ltd is a professional supplier focusing on Carbon Steel, Galvanized Steel, Stainless Steel, Aluminum and Corrugated Board. We provide high-quality products, complete specifications and reliable after-sales service, serving global customers with integrity and professionalism.</p>
+        <span class="overline" data-i18n="aboutProductsOverline">About Products</span>
+        <h2 data-i18n="aboutProductsTitle">Professional Steel Supplier You Can Trust</h2>
+        <p data-i18n="aboutProductsText">Shandong Stark Steel Co., Ltd is a professional supplier focusing on Carbon Steel, Galvanized Steel, Stainless Steel, Aluminum and Corrugated Board. We provide high-quality products, complete specifications and reliable after-sales service, serving global customers with integrity and professionalism.</p>
         <ul class="check-list">
           <li>✓ High quality products meeting GB/ASTM/JIS/DIN/EN standards</li>
           <li>✓ Complete specifications available for all product categories</li>
@@ -341,7 +356,7 @@
           <li>✓ More than 20 years trading and manufacture experience</li>
           <li>✓ Third party inspection (SGS, BV, TUV) is acceptable</li>
         </ul>
-        <a href="#" class="btn btn-primary">Learn More</a>
+        <a href="about.html" class="btn btn-primary" data-i18n="btnLearnMore">Learn More</a>
       </div>
     </div>
   </div>
@@ -352,19 +367,19 @@
   <div class="container">
     <div class="stat-item">
       <div class="stat-num">1.2<span>K</span><sup>+</sup></div>
-      <div class="stat-label">Satisfied Clients</div>
+      <div class="stat-label" data-i18n="statClients">Satisfied Clients</div>
     </div>
     <div class="stat-item">
       <div class="stat-num">300<span>+</span></div>
-      <div class="stat-label">Five-Star Reviews</div>
+      <div class="stat-label" data-i18n="statReviews">Five-Star Reviews</div>
     </div>
     <div class="stat-item">
       <div class="stat-num">30<span>K</span><sup>+</sup></div>
-      <div class="stat-label">Completed Projects</div>
+      <div class="stat-label" data-i18n="statProjects">Completed Projects</div>
     </div>
     <div class="stat-item">
       <div class="stat-num">15<span>+</span></div>
-      <div class="stat-label">Production Lines</div>
+      <div class="stat-label" data-i18n="statLines">Production Lines</div>
     </div>
   </div>
 </section>
@@ -373,28 +388,28 @@
 <section id="inquiry" class="inquiry-section">
   <div class="container">
     <div class="section-title">
-      <h2>Get the Latest Price</h2>
+      <h2 data-i18n="inquiryPriceTitle">Get the Latest Price</h2>
       <div class="title-underline"></div>
-      <p>Feel Free To Contact Us</p>
+      <p data-i18n="inquiryPriceSub">Feel Free To Contact Us</p>
     </div>
     <div class="inquiry-grid">
       <div class="inquiry-form-card">
-        <h3>Send Your Inquiry</h3>
-        <form class="inquiry-form" onsubmit="event.preventDefault(); alert('Thank you! We will reply within 24 hours.');">
+        <h3 data-i18n="secInquiry">Send Your Inquiry</h3>
+        <form class="inquiry-form" onsubmit="event.preventDefault(); alert(window.StarkI18n ? window.StarkI18n.getText('formSuccess') : 'Thank you! We will reply within 24 hours.');">
           <div class="form-row">
-            <label>Name *</label>
-            <input type="text" required placeholder="Your full name">
+            <label data-i18n="formName">Name *</label>
+            <input type="text" required placeholder="Your full name" data-i18n-placeholder="formNamePh">
           </div>
           <div class="form-row">
-            <label>Email *</label>
-            <input type="email" required placeholder="Your email address">
+            <label data-i18n="formEmail">Email *</label>
+            <input type="email" required placeholder="Your email address" data-i18n-placeholder="formEmailPh">
           </div>
           <div class="form-row">
-            <label>Phone</label>
-            <input type="tel" placeholder="+86 0000000000">
+            <label data-i18n="formPhone">Phone</label>
+            <input type="tel" placeholder="+86 0000000000" data-i18n-placeholder="formPhonePh">
           </div>
           <div class="form-row">
-            <label>Product Interest</label>
+            <label data-i18n="formProduct">Product Interest</label>
             <select>
               <option>Carbon Steel</option>
               <option>Galvanized Steel</option>
@@ -404,16 +419,16 @@
             </select>
           </div>
           <div class="form-row">
-            <label>Message *</label>
-            <textarea rows="4" required placeholder="Tell us what you need..."></textarea>
+            <label data-i18n="formMessage">Message *</label>
+            <textarea rows="4" required placeholder="Tell us what you need..." data-i18n-placeholder="formMessagePh"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary btn-block">Submit Inquiry</button>
+          <button type="submit" class="btn btn-primary btn-block" data-i18n="formSend">Submit Inquiry</button>
         </form>
       </div>
 
       <!-- Business Card -->
       <div class="contact-card">
-        <h3>Contact Information</h3>
+        <h3 data-i18n="contactInfoTitle">Contact Information</h3>
         <div class="business-card">
           <div class="bc-top">
             <div class="bc-title">
@@ -448,11 +463,11 @@
         </div>
 
         <div class="direct-contact">
-          <h4>Get In Touch Directly</h4>
-          <p><strong>📞 Phone:</strong> <a href="tel:+8618954492649">+86 18954492649</a></p>
-          <p><strong>📧 Email:</strong> <a href="mailto:esmestarksteel@163.com">esmestarksteel@163.com</a></p>
-          <p><strong>👤 Contact:</strong> Tobey (Sales Manager)</p>
-          <p><strong>🏢 Address:</strong> Shandong Province, Liaocheng, Economic and Technological Development Zone</p>
+          <h4 data-i18n="directContactTitle">Get In Touch Directly</h4>
+          <p><strong data-i18n="contactPhone">📞 Phone:</strong> <a href="tel:+8618954492649">+86 18954492649</a></p>
+          <p><strong data-i18n="contactEmail">📧 Email:</strong> <a href="mailto:esmestarksteel@163.com">esmestarksteel@163.com</a></p>
+          <p><strong data-i18n="contactPerson">👤 Contact:</strong> Tobey (Sales Manager)</p>
+          <p><strong data-i18n="contactAddress">🏢 Address:</strong> Shandong Province, Liaocheng, Economic and Technological Development Zone</p>
         </div>
       </div>
     </div>
@@ -464,8 +479,8 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col">
-        <h4>Shandong Stark Steel</h4>
-        <p>We provide high-quality Carbon Steel, Galvanized Steel, Stainless Steel, Aluminum and Corrugated Board with reliable service to global customers.</p>
+        <h4 data-i18n="footerAbout">Shandong Stark Steel</h4>
+        <p data-i18n="footerAboutText">We provide high-quality Carbon Steel, Galvanized Steel, Stainless Steel, Aluminum and Corrugated Board with reliable service to global customers.</p>
         <div class="social">
           <a href="#">f</a>
           <a href="#">in</a>
@@ -474,17 +489,17 @@
         </div>
       </div>
       <div class="footer-col">
-        <h4>Quick Links</h4>
+        <h4 data-i18n="footerLinks">Quick Links</h4>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="index.html#products">Products</a></li>
           <li><a href="news.html">News</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.html" data-i18n="btnContact">Contact Us</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Product Categories</h4>
+        <h4 data-i18n="footerCategories">Product Categories</h4>
         <ul>
           <li><a href="index.html#products">Carbon Steel</a></li>
           <li><a href="index.html#products">Galvanized Steel</a></li>
@@ -494,7 +509,7 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Contact</h4>
+        <h4 data-i18n="footerContact">Contact</h4>
         <p>📞 +86 18954492649</p>
         <a class="wa-link" href="https://wa.me/8618954492649" target="_blank" rel="noopener" title="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>WhatsApp</a>
         <p>📧 esmestarksteel@163.com</p>
@@ -503,7 +518,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2026 Shandong Stark Steel Co., Ltd. All Rights Reserved.</p>
+      <p>© 2026 Shandong Stark Steel Co., Ltd. <span data-i18n="footerCopyright">All Rights Reserved.</span></p>
     </div>
   </div>
 </footer>
@@ -513,5 +528,6 @@
 <a href="#inquiry" class="float-contact" title="Send Inquiry">💬</a>
 
 <script src="js/script.js"></script>
+<script src="js/i18n.js"></script>
 </body>
 </html>
