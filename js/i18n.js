@@ -156,6 +156,21 @@
       p15Feature6: "Custom packaging, private labeling and mixed container loading supported.",
       p15App: "Steel wire nails are widely used in building construction, wooden formwork, furniture manufacturing, pallet and crate assembly, roofing felt fixing, drywall installation, interior decoration, packaging and general DIY projects. They are suitable for hand nailing, pneumatic nail guns and automated fastening equipment.",
       p15Quality: "Nails are checked for length, diameter, point angle and bending strength before packing. Galvanized nails meet zinc coating requirements for indoor and outdoor use. Packaging options include 25kg cartons, 1kg/5kg small boxes, plastic buckets and palletized bulk bags. All shipments are packed in seaworthy containers for safe export transport."
+      // Product 16 (Galvanized Square Steel Tube)
+      p16Title: "Hot Dipped Galvanized Square Steel Tube",
+      p16Cat: "Galvanized Steel / Square Tube",
+      p16Summary: "Hot dipped galvanized square and rectangular steel tubes manufactured from Q195/Q235/Q345 carbon steel. Uniform zinc coating 40–275 g/m² provides excellent corrosion resistance for construction, fencing, greenhouse frames, machinery structures and general fabrication.",
+      p16DescP1: "Our hot dipped galvanized square steel tubes are produced from high quality carbon steel strip or plate, formed into square or rectangular hollow sections and then hot-dip galvanized to create a thick, durable zinc layer. The coating bonds metallurgically with the steel substrate, providing long-term protection against rust and atmospheric corrosion in both indoor and outdoor environments.",
+      p16DescP2: "The tubes feature uniform wall thickness, straight welds, precise corner angles and clean surfaces. They are widely used as structural members, support columns, fence posts, greenhouse frames, guardrails, steel furniture, machinery bases and general fabrication components. Both square and rectangular profiles are available in a wide range of dimensions and thicknesses.",
+      p16DescP3: "Standard production follows ASTM A500, EN 10219, GB/T 6728 and JIS G3466. Custom sizes, zinc coating weights, lengths, hole punching, cutting and end finishing can be supplied on request. Each batch is inspected for dimensions, zinc layer thickness, straightness and surface quality before packing.",
+      p16Feature1: "Made from Q195/Q235/Q345/S235JR/SS400 carbon steel with reliable mechanical properties.",
+      p16Feature2: "Hot-dip galvanized coating 40–275 g/m² for superior corrosion resistance.",
+      p16Feature3: "Square and rectangular sections in sizes from 10×10 mm up to 400×400 mm.",
+      p16Feature4: "Wall thickness 0.8–20.0 mm and length 3–12 m, custom cutting supported.",
+      p16Feature5: "Smooth surface, straight weld seam, accurate dimensions and good weldability.",
+      p16Feature6: "Bundle packing with steel straps, waterproof cloth and wooden crates for export.",
+      p16App: "Galvanized square steel tubes are used in building construction, steel structures, fencing systems, greenhouse frames, agricultural equipment, solar panel supports, road and bridge guardrails, steel furniture, advertising frames, machine guards and general metal fabrication where corrosion resistance and structural strength are required.",
+      p16Quality: "Tubes are checked for outer dimensions, wall thickness, corner angles, straightness, weld quality and zinc coating weight before shipment. Galvanized coatings meet the requirements for atmospheric corrosion protection. Products are bundled with steel straps, wrapped with waterproof cloth or packed in wooden crates for safe ocean transport and easy unloading at the destination.",
     },
     zh: {
       // 顶部栏 / 导航
