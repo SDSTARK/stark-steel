@@ -171,6 +171,22 @@
       p16Feature6: "Bundle packing with steel straps, waterproof cloth and wooden crates for export.",
       p16App: "Galvanized square steel tubes are used in building construction, steel structures, fencing systems, greenhouse frames, agricultural equipment, solar panel supports, road and bridge guardrails, steel furniture, advertising frames, machine guards and general metal fabrication where corrosion resistance and structural strength are required.",
       p16Quality: "Tubes are checked for outer dimensions, wall thickness, corner angles, straightness, weld quality and zinc coating weight before shipment. Galvanized coatings meet the requirements for atmospheric corrosion protection. Products are bundled with steel straps, wrapped with waterproof cloth or packed in wooden crates for safe ocean transport and easy unloading at the destination.",
+      // 产品17（碳钢管）
+      p17Title: "Carbon Steel Pipe",
+      p17Cat: "Carbon Steel / Pipe & Tube",
+      p17Summary: "Carbon steel pipe in round, square and rectangular sections manufactured from Q195/Q235/Q345/Q235B/S235JR/SS400 carbon steel. Available as black, oiled, painted or galvanized finish. Outer diameter 10-820 mm, wall thickness 0.5-25 mm, length 1-12 m. Widely used for construction, machinery structures, oil & gas pipelines, fluid transport and general fabrication.",
+      p17DescP1: "Our carbon steel pipe is produced from high quality carbon steel strip, plate or billet by ERW, LSAW, SSAW or seamless processes depending on diameter and wall thickness. The pipes have uniform dimensions, straight weld seams, smooth surface and reliable mechanical properties, making them suitable for structural, pressure, fluid and general purpose applications.",
+      p17DescP2: "Round pipe is available from small diameter 10 mm up to large diameter 820 mm, with wall thickness from 0.5 mm to 25 mm. Square and rectangular hollow sections are also supplied for structural and fabrication use. Surface finishes include black, oiled, varnished, painted and hot-dip galvanized to meet different corrosion protection requirements.",
+      p17DescP3: "Production follows ASTM A53, ASTM A106, API 5L, EN 10210, GB/T 8162, GB/T 8163, JIS G3444 and JIS G3452 standards. We can supply plain, beveled or threaded ends with plastic caps, and provide cut-to-length, hole punching, bending and other processing services. Each batch is inspected for dimensions, wall thickness, straightness, surface quality and mechanical properties before packing.",
+      p17Feature1: "Made from Q195/Q235/Q345/Q235B/S235JR/SS400 carbon steel with stable mechanical properties.",
+      p17Feature2: "Round, square and rectangular sections in a wide range of dimensions and wall thicknesses.",
+      p17Feature3: "Black, oiled, varnished, painted or hot-dip galvanized surface finishes available.",
+      p17Feature4: "Outer diameter 10-820 mm, wall thickness 0.5-25 mm, length 1-12 m.",
+      p17Feature5: "Plain, beveled or threaded ends with caps according to customer requirements.",
+      p17Feature6: "Bundle packing with steel straps, waterproof cloth and wooden cases for export.",
+      p17App: "Carbon steel pipe is widely used in building structures, steel frameworks, machinery manufacturing, oil and gas pipelines, water and fluid transport, low pressure boiler tubes, fencing systems, agricultural equipment, greenhouse frames, scaffolding, furniture, automotive parts, sign posts and general metal fabrication where strength, weldability and cost efficiency are important.",
+      p17Quality: "Pipes are checked for outer diameter, wall thickness, length, straightness, weld integrity and surface finish before shipment. Mechanical tests and chemical composition analysis can be provided on request. Products are bundled with steel straps, protected with plastic caps on ends, wrapped with waterproof cloth or packed in wooden cases for safe ocean transport and easy unloading at the destination.",
+
     },
     zh: {
       // 顶部栏 / 导航
