@@ -58,7 +58,13 @@
 <section class="pd-wrap">
   <div class="container pd-layout">
     <div class="pd-gallery">
-      <img src="images/product-01.jpg" alt="HRB400/HRB400E Steel Wire Rod">
+      <div class="pd-main-img">
+        <img id="mainImg01" src="images/product-01.jpg" alt="HRB400/HRB400E Steel Wire Rod">
+      </div>
+      <div class="pd-thumbs">
+        <img class="thumb active" src="images/product-01.jpg" data-full="images/product-01.jpg" alt="Wire rod coil overview" onclick="changeImg(this, 'mainImg01')">
+        <img class="thumb" src="images/product-01-02.jpg" data-full="images/product-01-02.jpg" alt="Wire rod coil close-up" onclick="changeImg(this, 'mainImg01')">
+      </div>
       <div class="pd-cta">
         <a href="https://wa.me/8618954492649" class="btn btn-primary btn-block" target="_blank" rel="noopener" data-i18n="pdChatWhatsApp">Chat on WhatsApp</a>
         <a href="contact.html" class="btn btn-primary btn-block" data-i18n="pdGetQuote">Get a Quote</a>
@@ -167,10 +173,10 @@
 </div>
 <div class="product-card" data-cat="Steel Rebars">
   <div class="product-img">
-    <img src="images/product-04.jpg" alt="HRB600 High Strength Hot Rolled Reinforced Bar">
+    <img src="images/product-04.jpg" alt="Steel Rebar (HRB400 / HRB500 / HRB600)">
   </div>
   <div class="product-info">
-    <h3><a href="product-04.html">HRB600 High Strength Hot Rolled Reinforced Bar</a></h3>
+    <h3><a href="product-04.html">Steel Rebar (HRB400 / HRB500 / HRB600)</a></h3>
     <div class="product-meta"><span>Steel Rebars</span></div>
     <a href="product-04.html" class="read-more" data-i18n="btnReadMore">Read More →</a>
   </div>
