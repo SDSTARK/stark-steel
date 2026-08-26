@@ -55,10 +55,18 @@ ul { list-style: none; }
   align-items: center;
 }
 .top-bar-right span { margin-left: 24px; }
-.lang-switch { display:inline-flex; align-items:center; gap:4px; margin-left:18px; }
-.lang-switch-btn { background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.25); color:#e2e8f0; cursor:pointer; padding:3px 8px; font-size:12px; border-radius:4px; transition:all .2s; }
-.lang-switch-btn:hover { background:rgba(255,255,255,0.2); color:#fff; }
-.lang-switch-btn.active { background:var(--accent); border-color:var(--accent); color:#1f2937; font-weight:700; }
+.lang-switch { display:inline-flex; align-items:center; gap:6px; margin-left:18px; }
+.lang-globe { font-size:13px; opacity:.85; }
+.lang-select {
+  -webkit-appearance:none; appearance:none;
+  background:rgba(255,255,255,0.1) url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23cbd5e1' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat right 6px center;
+  border:1px solid rgba(255,255,255,0.25); color:#e2e8f0;
+  cursor:pointer; padding:3px 22px 3px 8px; font-size:12px; font-family:inherit;
+  border-radius:4px; transition:all .2s; outline:none;
+}
+.lang-select:hover { background-color:rgba(255,255,255,0.2); color:#fff; }
+.lang-select:focus { border-color:var(--accent); }
+.lang-select option { color:#1f2937; background:#fff; font-size:13px; }
 
 /* =========================================================
    HEADER
@@ -852,7 +860,12 @@ ul { list-style: none; }
   .news-layout { grid-template-columns: 1fr; }
 }
 @media (max-width: 640px) {
-  .top-bar { display: none; }
+  .top-bar { display: block; }
+  .top-bar .top-bar-left { display: none; }
+  .top-bar .top-bar-right { display: flex; justify-content: flex-end; align-items: center; }
+  .top-bar .top-bar-right > span:not(.lang-switch) { display: none; }
+  .top-bar .top-bar-right .wa-link { display: none; }
+  .top-bar .lang-switch { margin-left: 0; }
   .hero-slider { height: 420px; }
   .hero-content h1 { font-size: 26px; }
   .product-grid { grid-template-columns: 1fr; }
