@@ -201,6 +201,22 @@
       p18App: "Galvanized color coated coil is widely used for roofing and walling sheets, corrugated profile panels, sandwich panel facing, garage doors, roller shutters, household appliances, kitchen cabinets, furniture, ceiling systems, interior decoration, sign boards, electrical enclosures, agricultural buildings, warehouses, prefabricated houses and industrial cladding where both aesthetics and durability are required.",
       p18Quality: "Coils are tested for coating thickness, adhesion, color consistency, gloss, T-bend, impact resistance, salt spray resistance and chemical composition on request. They are packed with corrosion-resistant paper, plastic or steel edge protectors, circumferential steel straps and waterproof wrapping for safe long-distance transport. Standard seaworthy export packaging protects the painted surface from moisture and mechanical damage.",
 
+      // 产品19（铝卷）
+      p19Title: "Aluminum Coil",
+      p19Cat: "Aluminum / Coil",
+      p19Summary: "High quality aluminum coil in 1000/3000/5000/8000 series including 1050, 1060, 1100, 3003, 3004, 5052 and 8011. Thickness 0.2-8.0 mm, width 600-2600 mm. Available with mill finish, color coated (PE/PVDF), stucco embossed, bright polish and anodized surfaces. Widely used in construction, decoration, automotive, electronics, packaging and industrial manufacturing.",
+      p19DescP1: "Our aluminum coil is produced from high quality aluminum ingot through continuous casting and rolling or hot/cold rolling processes. The coils have uniform thickness, flat surface, stable mechanical properties and excellent corrosion resistance, making them suitable for a wide range of industrial, construction and decorative applications.",
+      p19DescP2: "We supply aluminum coils in 1000, 3000, 5000 and 8000 series, covering common grades such as 1050, 1060, 1100, 3003, 3004, 5052 and 8011. Thickness ranges from 0.2 mm to 8.0 mm and width from 600 mm to 2600 mm. Surface finishes include mill finish, color coated (PE or PVDF), stucco embossed, bright polish and anodizing. Colors can be matched to customer requirements or standard RAL shades.",
+      p19DescP3: "Production follows ASTM, AISI, JIS, DIN and GB standards. We can provide cutting, slitting, bending, punching, welding and decoiling services according to customer drawings. Each batch is inspected for dimensions, surface quality, mechanical properties and chemical composition before packing. Coils are packed with waterproof paper, plastic film and wooden pallets for safe ocean transport.",
+      p19Feature1: "Made from high purity aluminum in 1000/3000/5000/8000 series with stable properties.",
+      p19Feature2: "Thickness 0.2-8.0 mm and width 600-2600 mm to meet diverse application needs.",
+      p19Feature3: "Multiple surface finishes: mill finish, color coated, stucco embossed, bright polish, anodized.",
+      p19Feature4: "Light weight, good corrosion resistance, excellent formability and weldability.",
+      p19Feature5: "Custom cutting, slitting, bending and punching services available.",
+      p19Feature6: "Seaworthy packing with waterproof paper, plastic film and wooden pallets.",
+      p19App: "Aluminum coil is widely used in roofing and wall cladding, ceiling panels, curtain walls, advertising signs, automotive parts, electronic components, heat exchangers, air conditioning ducts, food packaging, pharmaceutical foil, chemical equipment, shipbuilding, road signs, furniture decoration, household appliances and general metal fabrication where light weight and corrosion resistance are required.",
+      p19Quality: "Coils are checked for thickness, width, surface quality, flatness, mechanical properties and chemical composition before shipment. Mill test certificates can be provided on request. Products are packed eye to sky or eye to wall, protected with waterproof paper and plastic film, supported by wooden pallets or steel frames for safe ocean transport and easy unloading at the destination.",
+
     },
     zh: {
       // 顶部栏 / 导航
