@@ -155,7 +155,7 @@
       p15Feature5: "Clean surface, no oil stains, uniform coating thickness for galvanized types.",
       p15Feature6: "Custom packaging, private labeling and mixed container loading supported.",
       p15App: "Steel wire nails are widely used in building construction, wooden formwork, furniture manufacturing, pallet and crate assembly, roofing felt fixing, drywall installation, interior decoration, packaging and general DIY projects. They are suitable for hand nailing, pneumatic nail guns and automated fastening equipment.",
-      p15Quality: "Nails are checked for length, diameter, point angle and bending strength before packing. Galvanized nails meet zinc coating requirements for indoor and outdoor use. Packaging options include 25kg cartons, 1kg/5kg small boxes, plastic buckets and palletized bulk bags. All shipments are packed in seaworthy containers for safe export transport."
+      p15Quality: "Nails are checked for length, diameter, point angle and bending strength before packing. Galvanized nails meet zinc coating requirements for indoor and outdoor use. Packaging options include 25kg cartons, 1kg/5kg small boxes, plastic buckets and palletized bulk bags. All shipments are packed in seaworthy containers for safe export transport.",
       // Product 16 (Galvanized Square Steel Tube)
       p16Title: "Galvanized Square Steel Tube",
       p16Cat: "Galvanized Steel / Square Tube",
