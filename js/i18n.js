@@ -216,7 +216,21 @@
       p19Feature6: "Seaworthy packing with waterproof paper, plastic film and wooden pallets.",
       p19App: "Aluminum coil is widely used in roofing and wall cladding, ceiling panels, curtain walls, advertising signs, automotive parts, electronic components, heat exchangers, air conditioning ducts, food packaging, pharmaceutical foil, chemical equipment, shipbuilding, road signs, furniture decoration, household appliances and general metal fabrication where light weight and corrosion resistance are required.",
       p19Quality: "Coils are checked for thickness, width, surface quality, flatness, mechanical properties and chemical composition before shipment. Mill test certificates can be provided on request. Products are packed eye to sky or eye to wall, protected with waterproof paper and plastic film, supported by wooden pallets or steel frames for safe ocean transport and easy unloading at the destination.",
-
+      // Product 20 (Steel Section Steel / H Beam / I Beam)
+      p20Title: "H Beam & I Beam Steel Section",
+      p20Cat: "Carbon Steel / Section Steel",
+      p20Summary: "High quality hot rolled structural steel sections including H beams (HEA/HEB/HEM), I beams (IPE/IPN/UB/UC), steel channels and steel angles. Material Q235B/Q345B/S235JR/S275JR/S355JR/A36/A572 Gr.50/SS400/SS490. Beam height 100-900 mm. Widely applied in building structures, industrial plants, bridges, towers, machine bases and general fabrication.",
+      p20DescP1: "Steel section steel is one of the most fundamental and widely used structural materials in modern construction and industry. We supply a full range of hot rolled H beams (also called H-section, HEA, HEB, HEM or HW/HM/HN according to Chinese GB/T 11263) and I beams (also called I-section, IPE, IPN, UB or UC) manufactured from high quality carbon steel by hot rolling.",
+      p20DescP2: "Our section steel is produced from continuously cast billets by hot rolling. The flanges and webs have uniform thickness, parallel flanges, smooth surfaces and precise dimensions. Sections can be supplied as hot rolled black surface, shot blasted, primed, painted or galvanized for corrosion protection. Standard lengths are 6 m and 12 m, with custom cutting, drilling, welding and shot blasting available on request.",
+      p20DescP3: "Production strictly follows GB/T 11263, ASTM A6/A36/A572, JIS G3192, EN 10034, EN 10025 and equivalent international standards. Each batch is inspected for dimensions, weight, straightness, surface quality and mechanical properties including yield strength, tensile strength and elongation. Mill test certificates (EN 10204 3.1) are provided with every shipment.",
+      p20Feature1: "Hot rolled H beams, I beams, channels and angles from Q235B, Q345B, S235JR, S275JR, S355JR, A36 and A572 Gr.50.",
+      p20Feature2: "Beam height 100-900 mm, flange width 50-300 mm, web thickness 4-45 mm for full size coverage.",
+      p20Feature3: "Parallel flanges, precise dimensions, uniform thickness and excellent straightness.",
+      p20Feature4: "Supplied as hot rolled, shot blasted, primed, painted or galvanized finish.",
+      p20Feature5: "Standard lengths 6 m and 12 m, custom cutting and end finishing supported.",
+      p20Feature6: "Mill test certificates, seaworthy export packing and fast delivery from stock or mill order.",
+      p20App: "Section steel is widely used in high-rise buildings, industrial plants, warehouses, workshops, bridges, viaducts, transmission towers, port and offshore structures, ship internal structures, vehicle frames, machine bases, conveyor supports, crane beams, mining supports, agricultural greenhouses, stadium roofs and general steel fabrication where high strength, long span and reliable structural performance are required.",
+      p20Quality: "Sections are checked for dimensions, weight per meter, straightness, flange and web thickness, surface quality and mechanical properties including yield strength, tensile strength and elongation. Mill test certificates (EN 10204 3.1) can be supplied. Sections are bundled with steel straps, supported by wooden blocks or steel cradles and wrapped for safe ocean transport and easy handling at the destination port.",
     },
     zh: {
       // 顶部栏 / 导航
