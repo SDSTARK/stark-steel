@@ -1247,3 +1247,34 @@ ul { list-style: none; }
   border-color: var(--primary);
   color: #fff;
 }
+
+/* =========================================================
+   COMPANY PROMO VIDEO
+========================================================= */
+.company-video {
+  padding: 90px 0;
+  background: linear-gradient(135deg, #0a1f44 0%, #0f3a7d 55%, #1a4d9c 100%);
+  color: #fff;
+}
+.company-video .section-title h2 { color: #fff; }
+.company-video .section-title p { color: rgba(255, 255, 255, 0.78); }
+.company-video .title-underline { background: var(--accent); }
+.company-video .video-wrap {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 184, 0, 0.35);
+}
+.company-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #000;
+}
+@media (max-width: 768px) {
+  .company-video { padding: 56px 0; }
+  .company-video .video-wrap { border-radius: 10px; }
+}

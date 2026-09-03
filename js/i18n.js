@@ -27,6 +27,9 @@
   // Translation dictionary
   const dict = {
     en: {
+      "companyVideoTitle": "Strength You Can Trust",
+      "companyVideoSub": "Shandong Stark Steel — Your Global Metal Partner",
+
       "paymentTermsValue": "T/T (30% deposit)",
       // Top bar / header nav
       navHome: "Home",
@@ -834,6 +837,9 @@
       p04dia6: "Forged Rebar",
     },
     zh: {
+      "companyVideoTitle": "值得信赖的实力",
+      "companyVideoSub": "山东斯塔克钢铁——您的全球金属合作伙伴",
+
       "paymentTermsValue": "T/T (30% deposit)",
       // 顶部栏 / 导航
       navHome: "首页",
@@ -1637,6 +1643,9 @@
       p04dia6: "锻造钢筋",
     },
     es: {
+      "companyVideoTitle": "Fuerza en la que puedes confiar",
+      "companyVideoSub": "Shandong Stark Steel: su socio metalúrgico global",
+
       "paymentTermsValue": "T/T (30% deposit)",
       navHome: "Inicio",
       navAbout: "Sobre Nosotros",
@@ -2413,6 +2422,9 @@
       p04dia6: "Barra de refuerzo forjada",
     },
     fr: {
+      "companyVideoTitle": "Une force à laquelle vous pouvez faire confiance",
+      "companyVideoSub": "Shandong Stark Steel — Votre partenaire mondial en métal",
+
       "paymentTermsValue": "T/T (30% deposit)",
       navHome: "Accueil",
       navAbout: "À Propos",
@@ -3189,6 +3201,9 @@
       p04dia6: "Barres d'armature forgées",
     },
     de: {
+      "companyVideoTitle": "Stärke, der Sie vertrauen können",
+      "companyVideoSub": "Shandong Stark Steel – Ihr globaler Metallpartner",
+
       "paymentTermsValue": "T/T (30% deposit)",
       navHome: "Startseite",
       navAbout: "Über Uns",
@@ -3965,6 +3980,9 @@
       p04dia6: "Geschmiedeter Bewehrungsstahl",
     },
     it: {
+      "companyVideoTitle": "Forza di cui ti puoi fidare",
+      "companyVideoSub": "Shandong Stark Steel: il tuo partner globale nel settore metallurgico",
+
       "paymentTermsValue": "T/T (30% deposit)",
       navHome: "Home",
       navAbout: "Chi Siamo",
@@ -4741,6 +4759,9 @@
       p04dia6: "Tondo per cemento armato forgiato",
     },
     pt: {
+      "companyVideoTitle": "Força em que você pode confiar",
+      "companyVideoSub": "Shandong Stark Steel — Seu parceiro global de metal",
+
       "paymentTermsValue": "T/T (30% deposit)",
       navHome: "Início",
       navAbout: "Sobre Nós",
@@ -5517,6 +5538,9 @@
       p04dia6: "Vergalhão Forjado",
     },
     ru: {
+      "companyVideoTitle": "Сила, которой можно доверять",
+      "companyVideoSub": "Shandong Stark Steel — ваш глобальный партнер по металлу",
+
       "paymentTermsValue": "T/T (30% deposit)",
       navHome: "Главная",
       navAbout: "О нас",
@@ -6293,6 +6317,9 @@
       p04dia6: "Кованая арматура",
     },
     ar: {
+      "companyVideoTitle": "القوة التي يمكنك الوثوق بها",
+      "companyVideoSub": "شاندونغ ستارك ستيل — شريكك المعدني العالمي",
+
       "paymentTermsValue": "T/T (30% deposit)",
       navHome: "الرئيسية",
       navAbout: "من نحن",
@@ -7069,6 +7096,9 @@
       p04dia6: "حديد التسليح مزورة",
     },
     ja: {
+      "companyVideoTitle": "信頼できる強さ",
+      "companyVideoSub": "山東スタークスチール — あなたのグローバルメタルパートナー",
+
       "paymentTermsValue": "T/T (30% deposit)",
       navHome: "ホーム",
       navAbout: "会社概要",
@@ -7845,6 +7875,9 @@
       p04dia6: "鍛造鉄筋",
     },
     ko: {
+      "companyVideoTitle": "믿을 수 있는 힘",
+      "companyVideoSub": "Shandong Stark Steel - 글로벌 금속 파트너",
+
       "paymentTermsValue": "T/T (30% deposit)",
       navHome: "홈",
       navAbout: "회사 소개",
@@ -8621,6 +8654,9 @@
       p04dia6: "단조 철근",
     },
     vi: {
+      "companyVideoTitle": "Sức mạnh bạn có thể tin cậy",
+      "companyVideoSub": "Shandong Stark Steel — Đối tác kim loại toàn cầu của bạn",
+
       "paymentTermsValue": "T/T (30% deposit)",
       navHome: "Trang chủ",
       navAbout: "Về chúng tôi",
@@ -9397,6 +9433,9 @@
       p04dia6: "cốt thép rèn",
     },
     th: {
+      "companyVideoTitle": "ความเข้มแข็งที่คุณวางใจได้",
+      "companyVideoSub": "Shandong Stark Steel — พันธมิตรด้านโลหะระดับโลกของคุณ",
+
       "paymentTermsValue": "T/T (30% deposit)",
       navHome: "หน้าแรก",
       navAbout: "เกี่ยวกับเรา",
@@ -10173,6 +10212,9 @@
       p04dia6: "เหล็กเส้นปลอมแปลง",
     },
     tr: {
+      "companyVideoTitle": "Güvenebileceğiniz Güç",
+      "companyVideoSub": "Shandong Stark Steel — Küresel Metal Ortağınız",
+
       "paymentTermsValue": "T/T (30% deposit)",
       navHome: "Ana Sayfa",
       navAbout: "Hakkımızda",
@@ -10949,6 +10991,9 @@
       p04dia6: "Dövme Demir",
     },
     id: {
+      "companyVideoTitle": "Kekuatan yang Dapat Anda Percayai",
+      "companyVideoSub": "Shandong Stark Steel — Mitra Logam Global Anda",
+
       "paymentTermsValue": "T/T (30% deposit)",
       navHome: "Beranda",
       navAbout: "Tentang Kami",
@@ -11725,6 +11770,9 @@
       p04dia6: "Besi Tempa",
     },
     hi: {
+      "companyVideoTitle": "ताकत जिस पर आप भरोसा कर सकते हैं",
+      "companyVideoSub": "शेडोंग स्टार्क स्टील - आपका ग्लोबल मेटल पार्टनर",
+
       "paymentTermsValue": "T/T (30% deposit)",
       navHome: "होम",
       navAbout: "हमारे बारे में",
