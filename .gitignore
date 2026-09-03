@@ -1,0 +1,12 @@
+# Build/test/dev artifacts (not part of the published site)
+.cache/
+.cache_pages_trans/
+__pycache__/
+*.py
+test_*.js
+verify*.js
+check_*.js
+pipeline_report.txt
+translate_all_log.txt
+verify_report.json
+.cache_pages_keys.json

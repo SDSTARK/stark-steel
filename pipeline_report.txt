@@ -1,4 +1,0 @@
-14:21:21 waiting for orphan translate pid 15416 ...
-14:26:25   still waiting (5 min)
-14:31:27   still waiting (10 min)
-14:36:30   still waiting (15 min)
