@@ -13878,7 +13878,7 @@
     currentLang = lang;
     document.documentElement.lang = meta.tag;
     document.documentElement.dir = meta.rtl ? 'rtl' : 'ltr';
-    localStorage.setItem(STORE_KEY, lang);
+    try { localStorage.setItem(STORE_KEY, lang); } catch (e) { /* storage unavailable (file://, private mode) */ }
 
     document.querySelectorAll('[data-i18n]').forEach(el => {
       const key = el.dataset.i18n;
